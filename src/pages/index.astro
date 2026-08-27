@@ -1,0 +1,17 @@
+---
+import BaseLayout from '@layouts/BaseLayout.astro';
+import Plate from '@198x-ui/components/Plate.astro';
+---
+
+<BaseLayout>
+  <main>
+    <Plate prefix="format" project="format" size={40} href="/" />
+    <h1>Retro disk and media formats, as standalone crates.</h1>
+    <p class="lead">Format198x holds the family's on-disk format libraries — one crate per manufacturer, system and format, dependency-free and usable well outside the 198x family.</p>
+    <p class="status">Live. A format graduates here from the project that first needed it, once it has a standalone consumer.</p>
+    <footer>
+      One of the <a href="https://github.com/format198x">198x family</a>. The
+      wordmark, palette and type come from <a href="https://github.com/stevehill1981/198x-ui">198x-ui</a>.
+    </footer>
+  </main>
+</BaseLayout>
